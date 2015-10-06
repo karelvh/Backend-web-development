@@ -1,7 +1,7 @@
 /*
- * 010. First basic steps in Node with Hello world 
- * 
- * 
+ * 010. First basic steps in Node with Hello world
+ *
+ *
  */
 /*jshint strict:false */
 "use strict";
@@ -10,7 +10,7 @@
 process.stdout.write("Hello World met process.stdout.");
 console.log("Hello World met console.log"); //wrapper rond process.stdout
 
-//2) Hello world met een synchrone Hello en een async World. 
+//2) Hello world met een synchrone Hello en een async World.
 setTimeout(function () {
     var naam = process.argv[2]? "- Welcome" + process.argv[2] : " - Welcome to node.";
     console.log(" from the ASYNC WORLD" , naam);
